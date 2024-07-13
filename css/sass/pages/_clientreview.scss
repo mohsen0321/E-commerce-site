@@ -1,0 +1,59 @@
+.client-reviews{
+
+        background-color: #F3F4F6;
+        padding-top: 50px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+
+
+        .reviews{
+            text-align: center;
+
+                h3{
+                        color: #111;
+                        text-align: center;
+                        font-size: 25px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                        padding-bottom: 15px;
+                        transition: all ease 0.4s;
+                        &:hover{
+                            color: $hovercolor;
+                            transform: scale(1.2);
+                        }
+
+                }
+
+                img{
+                    width: 100px;
+                    height: auto;
+                    border-radius: 50px;
+                    margin: 10px 0;
+                }
+
+
+                    p{
+                        font-weight: 400;
+                        color: #707070;
+                        font-size: 16px;
+                        line-height: 25px;
+                        margin-bottom: 25px;
+                    }
+
+                    h2{
+                        color: #000;
+                        font-size: 22px;
+                        text-transform: capitalize;
+                        margin-bottom: 2px;
+                        font-weight: 400;
+                    }
+
+
+
+
+        }
+
+
+
+}

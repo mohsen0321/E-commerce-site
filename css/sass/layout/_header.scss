@@ -1,0 +1,134 @@
+header{
+    position: fixed;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+      .logo{
+       
+        .mk{
+          font-size: 45px;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+
+        color: $hovercolor;
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 600;
+        cursor: text;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+
+      }
+
+      .navbar{
+
+        display: flex;
+        position: fixed;
+        padding-left: 500px;
+            li{
+              
+                a{
+                
+                    padding: 10px 45px;
+                    color: #2c2c2c;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    transition: all ease 0.4s;
+
+                    transition: all ease 0.5;
+                    opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+          animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+
+
+
+
+
+                    &:hover{
+                        color: $hovercolor;
+                        border-bottom: 3px solid $hovercolor;
+                        
+                    }
+                }
+
+
+
+            }
+
+
+      }
+
+
+      .nav-icon{
+
+
+        display: flex;
+        align-items: center;
+        
+        transition: all ease 0.5;
+        opacity: 0;
+animation: slideTop 0.5s ease forwards;
+animation: slideTop 0.5s ease forwards;
+animation-delay: calc(0.2s * var(--w));
+animation-delay: calc(0.2s * var(--w));
+            i{
+
+                    margin-right: 30px;
+                    font-size: 25px;
+                    color: #2c2c2c;
+                    transition: all ease 0.42s;
+                    opacity: 0;
+                    animation: slideRight 1s ease forwards;
+                    animation-delay: 0.8s;
+                   animation-delay: calc( 0.2s * var(--w));
+                    &:hover{
+
+                        transform: scale(1.3);
+                        color: $hovercolor;
+                        cursor:pointer;
+                    }
+
+            }
+
+
+      }
+
+
+      #menu-icon{
+        font-size: 25px;
+        transition: all ease 0.5s;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc( 0.2s * var(--o));
+
+        &:hover{
+            color: $hovercolor;
+            transform: scale(1.2);
+            cursor:pointer;
+        }
+      }
+
+     
+
+}
+
+header.sticky{
+
+
+  background: #fff;
+  padding: 20px 10%;
+  box-shadow: 0px 0px 10px rgb(0 0 0 /10%);
+
+
+}

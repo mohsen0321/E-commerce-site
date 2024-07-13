@@ -1,0 +1,124 @@
+.trending-products{
+
+    max-width: 1200px;
+
+    margin-left: 370px;
+
+
+.center-text{
+    padding-top: 80px;
+
+            h2{
+
+
+                color: #111;
+                font-size: 28px;
+                
+                text-transform: capitalize;
+                text-align: center;
+            
+                margin-bottom: 30px;
+                span{
+                    color: $hovercolor;
+                    font-style: italic;
+                    
+                }
+
+                &:hover{
+                    color: $hovercolor;
+                    span{
+                        color: black;
+                    }
+                }
+            }
+
+}
+
+.products{
+    
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto ));
+    gap: 2rem;
+
+        .row{
+
+            position: relative;
+            transition: all 0.40s;
+
+            img{
+                cursor: pointer;
+                width: 100%;
+                height: auto;
+                transition: all 0.40s;
+                &:hover{
+                    transform: scale(0.9);
+                    box-shadow: 0 0  20px red;
+                }
+            }
+
+
+        }
+
+
+     .product-text{
+        h5{
+            cursor: text;
+            position: absolute;
+            top: 13px;
+            left: 13px;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            background-color: #27b737;
+            padding: 3px 10px;
+            border-radius: 5px ;
+        }
+
+     }
+
+     .heart-icon{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        &:hover{
+            color: $hovercolor;
+        }
+     }
+
+
+
+     .rating i{
+        cursor: pointer;
+        color: #FF8c00;
+        font-size: 18px;
+        
+     }
+
+
+                .price {
+                    line-height: 1.8;
+                    h4{
+
+                   
+                    font-weight: bold;
+                    font-size: 16px;
+                    color: #111;
+                    text-transform: capitalize;
+                    font-style:italic;
+                }
+
+                p{
+                    color: $hovercolor;
+                    font-size: 14px;
+                    font-weight: 600;
+                  
+                }
+
+                }
+
+}
+
+}
